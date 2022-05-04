@@ -2,21 +2,20 @@
 # Celine Ogero
 # CSCE 306
 # Project name: Telephone directory
-# Project Description: This is an account-based system to view, add, modify, or
+# Project Description: 
+This is an account-based system to view, add, modify, or
 delete from a telephone record based on names and the corresponding phone
 numbers.
 
-# Class File Names/Descriptions:
-# Class Directory:
-- Int Phone Number
-- Char First Name
-- Char Last Name
+Show contact Details: 
+- You can see the list of the names along with their phone numbers and emails using this feature. 
+- This feature shows you the contact list. All the contacts are shown one by one in a list.
 
-# Methods I intend to use for this include:
-- void createContact ( given a first name and last name as well as the phone number, this will
-  help create and save the contact)
-- void searchContact( given the first and last name, this method will search and display the
-  phone number associated with that contact
-- void deleteContact( this method will delete a phone number from the directory)
-- void editContact( this method will allow a user to edit the contact information and save it)
+Add contacts: 
+- This feature allows you to add a new contact to the contacts-list of the Phonebook application. 
+- Adding new contacts is very easy. You just need to enter the contact’s name and phone number.
+- A message will be shown upon successful addition of any contacts.
 
+Deleting contacts: 
+- Contacts can be deleted from the contacts-list. 
+- You can delete a contact from the main menu.
