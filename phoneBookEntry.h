@@ -9,6 +9,7 @@ class phoneBookEntry{
 		std::string usernumber;
 		std::string useremail;
 	public:
+        //list the different types of entries that a user can get
 		phoneBookEntry();
 		phoneBookEntry(const std::string &name, const std::string &number);
 		phoneBookEntry(const std::string &name, const std::string &number,  const std::string &email);
