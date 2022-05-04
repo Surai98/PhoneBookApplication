@@ -2,12 +2,14 @@
 # Celine Ogero
 # CSCE 306
 # Project name: Telephone directory
-# Project Description: This is an account-based system to view, add, modify, or
+
+Project Description: This is an account-based system to view, add, modify, or
 delete from a telephone record based on names and the corresponding phone
 numbers.
 
 # Class File Names/Descriptions:
-# Class Directory:
+
+Class Directory:
 - Int Phone Number
 - Char First Name
 - Char Last Name
