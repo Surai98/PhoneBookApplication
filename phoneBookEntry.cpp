@@ -4,6 +4,8 @@
 #include <string>
 #include <iostream>
 #include "phoneBookEntry.h"
+
+//Constructor showing name, phone number and email
 phoneBookEntry::phoneBookEntry(): username(""), usernumber(""), useremail("")
 {
 }

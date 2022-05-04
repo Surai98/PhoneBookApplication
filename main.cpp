@@ -2,6 +2,7 @@
  * portfolio_project
  * CSCE 306: Object oriented programming in c++;
  * Telephone Application.
+ * Code Summary: This source code file is for the portfolio assignment
  *
  */
 
