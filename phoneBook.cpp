@@ -36,8 +36,8 @@ void phoneBook::insert(const std::string &name, const std::string &number, const
 }
 
 //will delete a contact record from the phone book given the string name:
-bool phoneBook::erase(std::string name){
-	for(std::size_t i = 0; i < phoneVector.size(); i++){
+bool phoneBook::deleteContact(std::string name) {
+    for(std::size_t i = 0; i < phoneVector.size(); i++){
 		if(phoneVector[i].name() == name){
 			phoneVector.erase(phoneVector.begin() + i);
 			return true;

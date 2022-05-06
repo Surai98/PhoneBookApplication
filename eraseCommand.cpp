@@ -8,7 +8,7 @@ void eraseCommand::execute(){
 	std::string name;
 	name= input("Enter the name you want to delete");
 	if(book.find(name)){
-		book.erase(name);
+		book.deleteContact(name);
 		disp("Phone book entry " + name + " was deleted");
 	}
 	else{

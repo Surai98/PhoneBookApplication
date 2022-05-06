@@ -1,3 +1,7 @@
+/*
+*      Author: https://github.com/trentshaines
+*/
+
 #ifndef BOOKCOMMAND_H_
 #define BOOKCOMMAND_H_
 #include <iostream>

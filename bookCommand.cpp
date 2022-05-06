@@ -1,3 +1,7 @@
+/*
+*      Author: https://github.com/trentshaines
+*/
+
 #include <string>
 #include <iostream>
 #include "bookCommand.h"

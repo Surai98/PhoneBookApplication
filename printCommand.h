@@ -1,3 +1,7 @@
+/*
+*      Author: https://github.com/trentshaines
+*/
+
 #ifndef PRINTCOMMAND_H_
 #define PRINTCOMMAND_H_
 #include "bookCommand.h"
