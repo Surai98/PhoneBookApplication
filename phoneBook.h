@@ -24,7 +24,7 @@ class phoneBook{
 
     void insert(const std::string &name, const std::string &number, const std::string &email);
 
-    bool erase(std::string name);
+    bool deleteContact(std::string name);
 
     void print(std::ostream &out) const;
 

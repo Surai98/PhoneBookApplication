@@ -1,3 +1,6 @@
+/*
+*      Author: https://github.com/trentshaines
+*/
 #ifndef ERASECOMMAND_H_
 #define ERASECOMMAND_H_
 #include "bookCommand.h"

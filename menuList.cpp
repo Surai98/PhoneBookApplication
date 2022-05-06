@@ -73,7 +73,7 @@ void menuList::start() const
 	while (selectChar != QUIT);
 }
 
-// display all of the menu item values
+// display all the menu item values
 void menuList::displayMenu() const
 {
 	std::cout << menuText << std::endl;
@@ -92,12 +92,12 @@ void menuList::displayMenu() const
 char menuList::getSelection() const
 {
 	char returnValue;
-	std::string text;
+	std::string message;
 
 	// read in the input buffer
-	getline(std::cin, text);
+	getline(std::cin, message);
 
-	if (text.length() == 0)
+	if (message.length() == 0)
 	{
 		// if it is empty return the null character
 		returnValue = '\0';
@@ -105,7 +105,7 @@ char menuList::getSelection() const
 	else
 	{
 		// return the character entered
-		returnValue = text[0];
+		returnValue = message[0];
 	}
 
 	return returnValue;
@@ -132,7 +132,7 @@ char menuItem::select() const
 	return theSelectChar;
 }
 
-// return descriptoin
+// return description
 std::string menuItem::description() const
 {
 	return theDescription;

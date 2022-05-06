@@ -1,6 +1,4 @@
 /*
- * menuList.h
- *
  * The menuList class implements a very simple menu system.
  *
  * The menu is made up of a collection of menuItem values.

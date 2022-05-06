@@ -1,3 +1,7 @@
+/*
+*      Author: https://github.com/trentshaines
+*/
+
 #ifndef ADDUPDATECOMMAND_H_
 #define ADDUPDATECOMMAND_H_
 #include "bookCommand.h"
