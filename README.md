@@ -8,6 +8,11 @@ This is an account-based system to view, add, modify, or
 delete from a telephone record based on names and the corresponding phone
 numbers.
 
+This application uses some code and is inspired by https://github.com/trentshaines/PhoneBook, to be specific, the commands implementation of this code.
+
+In addition, I also got guidance  from this tutorial: https://itsourcecode.com/free-projects/cplusplus-projects/telephone-directory-in-c-project-with-source-code/ on the implemenation of the classes.
+
+
 Show contact Details: 
 - You can see the list of the names along with their phone numbers and emails using this feature. 
 - This feature shows you the contact list. All the contacts are shown one by one in a list.
